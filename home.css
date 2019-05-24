@@ -1,0 +1,16 @@
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+header{
+overflow: hidden;
+position: fixed;
+height: 70px;
+width:100%;
+border-bottom: 5px solid yellow;
+margin-left: 0;
+}
+
+header a img {
+  width: 50px;
+}
