@@ -2,15 +2,56 @@
 margin:0;
 padding:0}
 
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito" , sans-serif;
+}
+
 header{
-overflow: hidden;
-position: fixed;
-height: 70px;
-width:100%;
-border-bottom: 5px solid yellow;
-margin-left: 0;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  position: fixed;
+  height: 70px;
+  width:100%;
+  border-bottom: 5px solid red;
+  margin-left: 0;
 }
 
 header a img {
   width: 50px;
+}
+
+header div.saludo p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 18%;
+}
+
+header div.generos{
+  margin-top: 1.5%;
+}
+
+header div.generos a {
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+
+header div.form form{
+  margin-top: 10%;
+}
+header div.form form input.buscar{
+  border-radius: 15px;
+
+}
+header div.form form input.boton{
+  color: red;
+  border-radius: 15px;
+
+}
+
+header div.favoritos a img {
+  margin-top: 10%;
 }
