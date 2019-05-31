@@ -7,7 +7,8 @@ padding:0}
 body {
   font-family: "Nunito" , sans-serif;
   background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
-filter: blur(0.5);
+  background-attachment: fixed;
+;
 }
 
 
@@ -76,6 +77,19 @@ div.carousel-item img.imagen{
   background-color: #ffc168;
   width: 50%;
   margin: 0 auto;
+}
 
+footer {
+  background-color: whitesmoke;
+
+}
+footer img {
+  width: 50px;
+  margin-left: 48.5%;
+}
+footer p {
+  text-align: center;
+  width: 35%;
+ margin-left: 33%;
 
 }

@@ -1,69 +1,67 @@
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
 body {
+  font-family: "Nunito" , sans-serif;
   width:100%;
-  background-image: url("https://torresmateu.com/file/2016/11/fotografo-mallorca-palma-paisaje-bunyola-2.jpg");
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
 }
 
-header{
-  height:100px;
-  width:1247px;
-  position:fixed;
-  background-color:black;
-  overflow:hidden;
-}
-div.logo p {
-  color:white;
-}
-div.logocontainer div.logo {
-  margin-left: 20px;
-}
-div.logo {
-  width:10%;
-  float:left;
-
-}
-div.logocontainer div.logo img.estrella {
-  margin-left:370px;
-  height:85px;
-}
-div.GENEROS {
-  overflow:hidden;
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
 }
 
-div.logo img {
-padding-top:5px;
-  height:90px;
-  border-radius:80px;
-  margin-left:10px;
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
 }
-div.logo p{
-  margin-top:40px;
-  font-size: 20px;
-  font-family: sans-serif;
+
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+
+div.GENEROS li {
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  font-size: 30px;
   font-weight: bold;
-}
-ul li.primergenero {
-  margin-top:110px;
-}
-ul li {
-
-height:90px;
-  margin-top: 20px;
-  width:96%;
-  margin-left:0px;
-  float: left;
-background-color : black;
-list-style:none;
-text-align:center;
-margin-right: 0px;
-padding-top:40px;
-
+  width: 25%;
+  text-decoration: none;
+  list-style-type: none;
 
 }
 
-ul li a {
-  text-decoration:none;
-  color:white;
-font-family: fantasy;
-font-size: 40px;
+div.GENEROS li a {
+  color: white;
+  text-decoration: none;
+}
 
+div.GENEROS li:hover a{
+  text-decoration: underline;
 }
