@@ -1,0 +1,61 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+body {
+  font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+div a.hola {
+  font-family: fantasy;
+  color:white;
+  font-size:70px;
+  text-decoration:none;
+}
+
+div.generotipo {
+  width:100%;
+  text-align:center;
+  background-color:black;
+}
+
+div.carousel-item{
+background-color: rgba(255,255,255,0.5);
+margin-top:10px;
+}
+
+div.carousel-item img.imagen{
+  margin-left: 30%;
+  width: 40%;
+  height: 600px;
+}
+
+div.carousel-caption.d-none.d-md-block.Cartext {
+position:relative;
+top:-5px;
+left:0px;
+}
+ol.carousel-indicators {
+  margin-left: 190px;
+}
+footer {
+  background-color: whitesmoke;
+
+}
+footer img {
+  width: 50px;
+  margin-left: 48.5%;
+  margin-bottom: 20px;
+}
+footer p {
+  text-align: center;
+  width: 35%;
+ margin-left: 33%;
+
+}
