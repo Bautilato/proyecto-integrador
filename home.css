@@ -12,7 +12,6 @@ header{
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-  position: fixed;
   height: 70px;
   width:100%;
   border-bottom: 5px solid red;
@@ -54,4 +53,14 @@ header div.form form input.boton{
 
 header div.favoritos a img {
   margin-top: 10%;
+}
+
+div.carousel-item{
+background-color: red;
+
+}
+div.carousel-item img.imagen{
+  margin-left: 30%;
+  width: 40%;
+  height: 600px;
 }
