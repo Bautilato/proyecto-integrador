@@ -6,20 +6,76 @@ padding:0}
 
 body {
   font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+filter: blur(0.5);
 }
 
 
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
 
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
 a.navbar-brand img{
   width: 50px;
 }
 
 div.carousel-item{
-background-color: red;
-
+background-color: rgba(255,255,255,0.5);
 }
+
 div.carousel-item img.imagen{
   margin-left: 30%;
   width: 40%;
   height: 600px;
+
+}
+
+.populares h1 {
+  background-color: teal;
+  color: white;
+}
+
+.puntaje h1 {
+  background-color: teal;
+  color: white;
+}
+
+
+.proximas h1 {
+  background-color: teal;
+  color: white;
+}
+
+.Cartext {
+  background-color: #ffc168;
+  width: 50%;
+  margin: 0 auto;
+
+
 }
