@@ -8,51 +8,10 @@ body {
   font-family: "Nunito" , sans-serif;
 }
 
-header{
-  display: flex;
-  justify-content: space-around;
-  overflow: hidden;
-  height: 70px;
-  width:100%;
-  border-bottom: 5px solid red;
-  margin-left: 0;
-}
 
-header a img {
+
+a.navbar-brand img{
   width: 50px;
-}
-
-header div.saludo p {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 18%;
-}
-
-header div.generos{
-  margin-top: 1.5%;
-}
-
-header div.generos a {
-  font-size: 20px;
-  text-align: center;
-  color: red;
-}
-
-header div.form form{
-  margin-top: 10%;
-}
-header div.form form input.buscar{
-  border-radius: 15px;
-
-}
-header div.form form input.boton{
-  color: red;
-  border-radius: 15px;
-
-}
-
-header div.favoritos a img {
-  margin-top: 10%;
 }
 
 div.carousel-item{
