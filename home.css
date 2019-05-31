@@ -10,6 +10,18 @@ body {
 
 }
 
+.Botonsesion {
+  margin-left: 5px;
+  background-color: white;
+  border-color:teal;
+  color: teal;
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: white;
+  color: white;
+}
 
 .miBoton {
   background-color: white;
@@ -27,8 +39,8 @@ a.navbar-brand img{
 
 div.carousel-item{
 background-color: white;
-opacity: 0.5;
-}
+opacity:0.5;}
+
 div.carousel-item img.imagen{
   margin-left: 30%;
   width: 40%;
