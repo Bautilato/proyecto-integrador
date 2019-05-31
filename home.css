@@ -12,25 +12,25 @@ body {
 
 .Botonsesion {
   margin-left: 5px;
-  background-color: white;
+  background-color: #ffc168;
   border-color:teal;
   color: teal;
 }
 
 .Botonsesion:hover{
   background-color: teal;
-  border-color: white;
+  border-color: #ffc168;
   color: white;
 }
 
 .miBoton {
-  background-color: white;
+  background-color: #ffc168;
   border-color:teal;
   color: teal;
 }
 .miBoton:hover{
   background-color: teal;
-  border-color: white;
+  border-color: #ffc168;
   color: white;
 }
 a.navbar-brand img{
