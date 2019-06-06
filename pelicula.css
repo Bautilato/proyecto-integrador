@@ -1,0 +1,47 @@
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
+
+}
+
+
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
