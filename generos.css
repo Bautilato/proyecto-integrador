@@ -72,12 +72,17 @@ div.GENEROS li:hover a{
 
 footer {
   background-color: whitesmoke;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   position: absolute;
   width: 100%;
 =======
   margin-bottom:0px;
 >>>>>>> Stashed changes
+=======
+  position: absolute;
+  width: 100%;
+>>>>>>> master
 }
 
 .Botonsesion:hover{
