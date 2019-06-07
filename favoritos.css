@@ -12,14 +12,15 @@ body {
 
 h1.titulofav {
   margin-top:30px;
-  text-align:center;
+
   background-color:black;
 }
 
 h1.titulofav p {
+  margin-left:40%;
   color:white;
   font-family:fantasy;
-  font-size:60px;
+  font-size:65px;
 }
 div.favorito1 img{
   width:85px;
@@ -32,13 +33,13 @@ div.favorito1 {
   border:10px black solid;
   background-color:black;
   width:105px;
-  margin-left:583px;
+  margin-left:46%;
   margin-bottom:50px;
 }
 
 div.favorito img {
   display:block;
-    margin-left:388px;
+    margin-left:30%;
     border:black 3px solid;
     width:486px;
     height:738px;
@@ -48,7 +49,11 @@ h2.nombredepelicula {
      opacity:0.8;
      filter:alpha(opacity=60); /* IE < 9.0 */
 width:486px;
-margin-left:388px;
+margin-left:30%;
+}
+
+h2.nombredepelicula p {
+  margin-left:1%;
 }
 
 h2 p {
