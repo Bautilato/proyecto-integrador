@@ -16,7 +16,6 @@ body {
   background-color: #ffc168;
   border-color:teal;
   color: teal;
-<<<<<<< HEAD
 }
 
 .Botonsesion:hover{
@@ -73,7 +72,12 @@ div.GENEROS li:hover a{
 
 footer {
   background-color: whitesmoke;
+<<<<<<< Updated upstream
+  position: absolute;
+  width: 100%;
 =======
+  margin-bottom:0px;
+>>>>>>> Stashed changes
 }
 
 .Botonsesion:hover{
@@ -112,26 +116,25 @@ div.GENEROS li {
   width: 25%;
   text-decoration: none;
   list-style-type: none;
->>>>>>> master
 
 }
 footer img {
   width: 50px;
   margin-left: 48.5%;
-  margin-bottom:10px;
+  
 
-<<<<<<< HEAD
 }
+
 footer p {
   text-align: center;
   width: 35%;
  margin-left: 33%;
-=======
+}
+
 div.GENEROS li a {
   color: white;
   text-decoration: none;
 }
->>>>>>> master
 
 div.GENEROS li:hover a{
   text-decoration: underline;
