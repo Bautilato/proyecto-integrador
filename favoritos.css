@@ -8,6 +8,7 @@ body {
   font-family: "Nunito" , sans-serif;
   background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
   background-attachment: fixed;
+  overflow:hidden;
 }
 
 h1.titulofav {
@@ -23,6 +24,7 @@ h1.titulofav p {
   font-size:65px;
 }
 div.favorito1 img{
+  display:block;
   width:85px;
   height:70px;
   border-radius:10px;
@@ -33,17 +35,18 @@ div.favorito1 {
   border:10px black solid;
   background-color:black;
   width:105px;
-  margin-left:46%;
+  margin-left:3%;
   margin-bottom:50px;
 }
 
 div.favorito img {
   display:block;
-    margin-left:30%;
+    margin-left:3%;
     border:black 3px solid;
-    width:486px;
+    width:470px;
     height:738px;
 }
+<<<<<<< Updated upstream
 div.nombredepelicula {
   background-color:white;
   opacity:0.8;
@@ -55,6 +58,23 @@ font-family: fantasy;
 
 div.nombredepelicula h2 {
   margin-left:1%;
+=======
+
+div.container {
+  float:left;
+  overflow:hidden
+}
+h2.nombredepelicula {
+  background-color:black;
+     opacity:0.8;
+     filter:alpha(opacity=60); /* IE < 9.0 */
+width:486px;
+margin-left:3%;
+}
+
+h2.nombredepelicula p {
+  margin-left:3%;
+>>>>>>> Stashed changes
 }
 
 h2  {
