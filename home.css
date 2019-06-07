@@ -62,27 +62,34 @@ div.carousel-item img.imagen{
 }
 
 .populares h1 {
-  background-color: teal;
+  background-color: black;
   color: white;
   padding-left:15px;
   font-size:35px;
+  text-align: center;
+  font-family: fantasy;
+
 }
 
 .puntaje h1 {
-  background-color: teal;
+  background-color: black;
   color: white;
   padding-left:15px;
   font-size:35px;
-  margin-top:-30px;
+  text-align: center;
+  font-family: fantasy;
+
 }
 
 
 .proximas h1 {
-  background-color: teal;
+  background-color: black;
   color: white;
   padding-left:15px;
   font-size:35px;
-  margin-top:-30px;
+  text-align: center;
+  font-family: fantasy;
+
 }
 
 .Cartext {

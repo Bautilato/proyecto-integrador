@@ -51,11 +51,17 @@ div.titulopeli{
 }
 
 div.titulopeli h1{
+  background-color: black;
   color: white;
+  padding-left:15px;
+  font-size:35px;
+  text-align: center;
+  font-family: fantasy;
+
 }
 
 div.infopeli {
-  background-color:  #ffc168;
+  background-color:  teal;
 overflow: hidden;
   width: 100%;
 
