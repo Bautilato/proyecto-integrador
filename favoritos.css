@@ -45,7 +45,7 @@ div.favorito img {
     height:738px;
 }
 div.nombredepelicula {
-  background-color:black;
+  background-color:white;
   opacity:0.8;
   filter:alpha(opacity=60); /* IE < 9.0 */
 width:486px;
@@ -58,12 +58,11 @@ div.nombredepelicula h2 {
 }
 
 h2  {
-  color:white;
+  color:black;
   text-align:center;
   font-size:40px;
   font-family:fantasy;
-  z-index: auto;
-  opacity: 100000000000000000000000000000000000000000000000000000;
+
 }
 
 a.navbar-brand img{
