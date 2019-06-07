@@ -29,7 +29,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 15;
-
 }
 
 .miBoton {
@@ -41,6 +40,9 @@ header {
   background-color: teal;
   border-color: #ffc168;
   color: white;
+}
+a.navbar-brand img{
+  width: 50px;
 }
 a.navbar-brand img{
   width: 50px;

@@ -15,6 +15,14 @@ footer img {
   bottom:20px;
 }
 
+
+
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
 .Botonsesion {
   margin-left: 5px;
   background-color: #ffc168;
@@ -27,14 +35,6 @@ footer img {
   border-color: #ffc168;
   color: white;
 }
-
-
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 15;
-}
-
 .miBoton {
   background-color: #ffc168;
   border-color:teal;
