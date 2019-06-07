@@ -45,3 +45,35 @@ header {
 a.navbar-brand img{
   width: 50px;
 }
+
+div.titulopeli{
+  background-color: teal;
+}
+
+div.titulopeli h1{
+  color: white;
+}
+
+div.infopeli {
+  background-color:  #ffc168;
+overflow: hidden;
+  width: 100%;
+
+}
+
+div.portada {
+  float: left;
+
+    width:40%;
+}
+
+div.portada img{
+
+  margin-left: 10%;
+  width: 80%;
+  }
+
+  div.infogral {
+    float: left;
+    width: 60%;
+  }
