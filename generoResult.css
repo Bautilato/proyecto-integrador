@@ -1,0 +1,121 @@
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+h1.titulofav {
+  margin-top:30px;
+
+  background-color:black;
+}
+
+h1.titulofav p {
+  text-align: center;
+  color:white;
+  font-family:fantasy;
+  font-size:65px;
+}
+div.genero1 img{
+  width:85px;
+  height:70px;
+  border-radius:10px;
+}
+div.genero1 {
+  margin-top:20px;
+  border-radius:30px;
+  border:10px black solid;
+  background-color:black;
+  width:105px;
+  margin-left:46%;
+  margin-bottom:50px;
+}
+
+div.genero img {
+  display:block;
+    margin: 0 auto;
+    border:black 3px solid;
+    width:486px;
+    height:738px;
+}
+div.nombredepelicula {
+  background-color:white;
+  opacity:0.8;
+  filter:alpha(opacity=60); /* IE < 9.0 */
+width:486px;
+margin: 0 auto;
+font-family: fantasy;
+}
+
+
+h2  {
+  color:black;
+  text-align:center;
+  font-size:40px;
+  font-family:fantasy;
+
+}
+div.generoprimero{
+  text-align: center;
+}
+
+a.navbar-brand img{
+  width: 50px;
+}
+
+
+footer {
+  background-color: whitesmoke;
+
+}
+footer img {
+  width: 50px;
+  margin-left: 48.5%;
+
+  position:relative;
+  bottom:20px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+
+footer p {
+  text-align: center;
+  width: 35%;
+ margin-left: 33%;
+
+}
