@@ -16,6 +16,7 @@ body {
   background-color: #ffc168;
   border-color:teal;
   color: teal;
+<<<<<<< HEAD
 }
 
 .Botonsesion:hover{
@@ -72,6 +73,46 @@ div.GENEROS li:hover a{
 
 footer {
   background-color: whitesmoke;
+=======
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
+
+div.GENEROS li {
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  font-size: 30px;
+  font-weight: bold;
+  width: 25%;
+  text-decoration: none;
+  list-style-type: none;
+>>>>>>> master
 
 }
 footer img {
@@ -79,10 +120,19 @@ footer img {
   margin-left: 48.5%;
   margin-bottom:10px;
 
+<<<<<<< HEAD
 }
 footer p {
   text-align: center;
   width: 35%;
  margin-left: 33%;
+=======
+div.GENEROS li a {
+  color: white;
+  text-decoration: none;
+}
+>>>>>>> master
 
+div.GENEROS li:hover a{
+  text-decoration: underline;
 }
