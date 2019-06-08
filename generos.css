@@ -48,30 +48,32 @@ a.navbar-brand img{
   width: 50px;
 }
 
-div.GENEROS li {
+div.GENEROS ul div li  {
   text-align: center;
   margin: 0 auto;
   background-color: black;
   font-size: 30px;
   font-weight: bold;
-  width: 90%;
+  width: 30%;
   text-decoration: none;
   list-style-type: none;
   margin-top: -3px;
   height:90px;
-  padding-top: 25px;
-}
-
-div.GENEROS li a {
-  color: white;
+  padding-top: 20px;
+  font-family:fantasy;
+  font-size:35px;
   text-decoration: none;
-  font-family: fantasy;
+   border-radius:50px;
 }
 
-div.GENEROS li:hover a{
-  text-decoration: underline;
-
+div.GENEROS ul div.bb {
+  margin-bottom:40px;
 }
+div.GENEROS ul div.ab:hover {
+  transform: scale(1.2);
+}
+
+
 
 footer {
   background-color: whitesmoke;
@@ -144,8 +146,4 @@ footer p {
 div.GENEROS li a {
   color: white;
   text-decoration: none;
-}
-
-div.GENEROS li:hover a{
-  text-decoration: underline;
 }
