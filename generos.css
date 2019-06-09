@@ -47,7 +47,9 @@ a.navbar-brand img{
 a.navbar-brand img{
   width: 50px;
 }
-
+div.GENEROS ul div li a:hover {
+  color:orange;
+}
 div.GENEROS ul div li  {
   text-align: center;
   margin: 0 auto;
