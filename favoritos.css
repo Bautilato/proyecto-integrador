@@ -23,17 +23,27 @@ h1.titulofav p {
   font-size:65px;
 }
 div.favorito1 img{
-  width:85px;
-  height:70px;
-  border-radius:10px;
+  width:50px;
+  height:55px;
+  border-radius:11px;
+  padding-left:9px;
 }
+
+div.favorito1 img:hover {
+  transform:scale(1.2);
+}
+
+div.favorito1:hover {
+  transform:scale(1.1);
+}
+
 div.favorito1 {
   margin-top:20px;
   border-radius:30px;
   border:10px black solid;
   background-color:black;
-  width:105px;
-  margin-left:46%;
+  width:80px;
+  margin-left:47%;
   margin-bottom:50px;
 }
 
