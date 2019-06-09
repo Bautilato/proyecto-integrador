@@ -22,9 +22,15 @@ h1.titulofav p {
   font-family:fantasy;
   font-size:65px;
 }
+
+
+
+div.genero1:hover {
+  transform:scale(1.2);
+}
 div.genero1 img{
-  width:85px;
-  height:70px;
+  width:50px;
+  height:53px;
   border-radius:10px;
 }
 div.genero1 {
@@ -32,8 +38,8 @@ div.genero1 {
   border-radius:30px;
   border:10px black solid;
   background-color:black;
-  width:105px;
-  margin-left:46%;
+  width:75px;
+  margin-left:47%;
   margin-bottom:50px;
 }
 
