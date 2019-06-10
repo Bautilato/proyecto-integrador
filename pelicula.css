@@ -48,13 +48,14 @@ a.navbar-brand img{
 
 div.titulopeli{
   background-color: teal;
+  margin-bottom:15px;
 }
 
 div.titulopeli h1{
   background-color: black;
   color: white;
   padding-left:15px;
-  font-size:35px;
+  font-size:45px;
   text-align: center;
   font-family: fantasy;
 
@@ -65,7 +66,9 @@ div.infopeli {
 overflow: hidden;
   width: 100%;
 
+
 }
+
 
 div.portada {
   float: left;
@@ -74,12 +77,29 @@ div.portada {
 }
 
 div.portada img{
-
-  margin-left: 10%;
+border:10px black solid;
+  margin-left: 7%;
   width: 80%;
+  heigh:60%;
+  margin-top:35px;
+  margin-bottom:35px;
   }
-
+div.infogral h3 {
+  padding-left:13px;
+  padding-right:13px;
+}
+div.infogral h2 {
+  padding-left:13px;
+  color:white;
+  padding-top:10px;
+}
   div.infogral {
+  margin-top:35px;
+    color:white;
     float: left;
     width: 60%;
+    background-color:black;
+    position:relative;
+    right:30px;
+    height:440px;;
   }
