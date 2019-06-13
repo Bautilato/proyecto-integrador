@@ -1,4 +1,4 @@
-window.onload = function(){
+window.addEventListener("load",function functionName() {
 
 
 var url = "https://api.themoviedb.org/3/movie/popular?api_key=e8c1145f3cf3e5ccaa8924b23c1db7fd&language=en-US&page=1"
@@ -48,4 +48,4 @@ document.querySelector("#movie1").classList.add("active")
   .catch(function(error){
     console.log("The error was: " + error);
 })
-}
+})
