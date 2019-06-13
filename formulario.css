@@ -1,0 +1,27 @@
+a.navbar-brand img{
+  width: 50px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+body {
+  font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+div.container label{
+  font-size:20px;
+color:white;
+
+}
+
+div.genero {
+  color:white;
+  
+  font-size:20px;
+}
