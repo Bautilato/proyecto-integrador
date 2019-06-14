@@ -15,6 +15,9 @@ footer img {
   bottom:20px;
 }
 
+form.inicioSesion {
+  color:black;
+}
 
 header {
   position: fixed;
