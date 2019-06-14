@@ -19,19 +19,22 @@ var ul = document.querySelector("main ul")
 var titulo;
 var imagen;
 var li;
-
+var idDePelicula;
 for (var i = 0; i < arrayDePeliculas.length; i++) {
-  arrayDePeliculas[i]
+
       titulo = arrayDePeliculas[i].title;
       imagen = "https://image.tmdb.org/t/p/original/"+arrayDePeliculas[i].poster_path;
+      idDePelicula= arrayDePeliculas[i].id;
 
       li = "<li class='generoprimero'>"
-      li += "<div class='nombredepelicula'>"
-      li +="  <h2>" + titulo + "</h2>"
-      li += "</div>"
-      li += "<div class='genero'>"
-      li +="<img src='" + imagen + "' alt=''>"
-      li +=  "</div>"
+      li +=   "<a href='pelicula.html?idDePelicula="+idDePelicula+"'>"
+      li +=     "<div class='nombredepelicula'>"
+      li +=       "<h2>" + titulo + "</h2>"
+      li +=      "</div>"
+      li +=     "<div class='genero'>"
+      li +=      "<img src='" + imagen + "' alt=''>"
+      li +=    "</div>"
+      li +=  "</a>"
       li += "<div class='genero1'>"
       li += " <img src='imagenes/estrella.jpg' alt=''>"
       li +=  "</div>"
