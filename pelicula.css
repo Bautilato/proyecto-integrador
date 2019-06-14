@@ -25,6 +25,10 @@ body {
   color: white;
 }
 
+div.modal-footer a button.register {
+  margin-right:220px;
+}
+
 
 header {
   position: fixed;

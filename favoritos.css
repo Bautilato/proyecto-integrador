@@ -127,5 +127,8 @@ footer p {
   text-align: center;
   width: 35%;
  margin-left: 33%;
+}
 
+div.modal-footer a button.register {
+  margin-right:220px;
 }
