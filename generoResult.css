@@ -12,7 +12,6 @@ body {
 
 h1.titulofav {
   margin-top:30px;
-
   background-color:black;
 }
 
@@ -67,7 +66,7 @@ h2  {
   font-family:fantasy;
 
 }
-div.generoprimero{
+li.generoprimero{
   text-align: center;
 }
 
@@ -87,10 +86,12 @@ footer img {
   position:relative;
   bottom:20px;
 }
+
 header {
-  position: fixed;
+  margin-top: 0;
   width: 100%;
   z-index: 15;
+  position: fixed;
 }
 .Botonsesion {
   margin-left: 5px;

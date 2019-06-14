@@ -107,10 +107,10 @@ footer {
 footer img {
   width: 50px;
   margin-left: 48.5%;
-<<<<<<< HEAD
+
   margin-bottom: 20px;
-=======
->>>>>>> master
+
+
 }
 footer p {
   text-align: center;
@@ -118,3 +118,42 @@ footer p {
  margin-left: 33%;
 
 }
+
+
+element.style {
+}
+div.carousel-item{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.carousel-item2 {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+  }
+
+  .carousel-item3 {
+      position: relative;
+      display: none;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%;
+      transition: -webkit-transform .6s ease;
+      transition: transform .6s ease;
+      transition: transform .6s ease,-webkit-transform .6s ease;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-perspective: 1000px;
+      perspective: 1000px;
+    }
