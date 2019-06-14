@@ -16,8 +16,6 @@ footer img {
 }
 
 
-
-
 header {
   position: fixed;
   width: 100%;
@@ -106,11 +104,9 @@ footer {
 }
 footer img {
   width: 50px;
-  margin-left: 48.5%;
-<<<<<<< HEAD
+
   margin-bottom: 20px;
-=======
->>>>>>> master
+
 }
 footer p {
   text-align: center;
@@ -119,6 +115,6 @@ footer p {
 
 }
 
-div.modal-footer button.register {
-  margin-right:48%;
+div.modal-footer a button.register {
+  margin-right:220px;
 }

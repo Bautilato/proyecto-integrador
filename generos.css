@@ -153,6 +153,6 @@ div.GENEROS li a {
   text-decoration: none;
 }
 
-div.modal-footer button.register {
-  margin-right:48%;
+div.modal-footer a button.register {
+  margin-right:220px;
 }
