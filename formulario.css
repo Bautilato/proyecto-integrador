@@ -13,15 +13,25 @@ body {
   background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
   background-attachment: fixed;
 }
-
+div.form-group.col-md-6 label {
+  width:60%;
+}
 div.container label{
   font-size:20px;
 color:white;
 
 }
 
+form {
+  width:60%;
+  margin:0 auto;
+}
+
 div.genero {
   color:white;
-  
   font-size:20px;
+}
+
+div.modal-footer button.register {
+  margin-right:48%;
 }

@@ -149,3 +149,7 @@ div.GENEROS li a {
   color: white;
   text-decoration: none;
 }
+
+div.modal-footer button.register {
+  margin-right:48%;
+}
