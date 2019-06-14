@@ -18,6 +18,9 @@ body {
   color: teal;
 }
 
+ul.listadoGeneros {
+  text-transform:uppercase;
+}
 .Botonsesion:hover{
   background-color: teal;
   border-color: #ffc168;
