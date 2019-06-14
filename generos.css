@@ -18,6 +18,9 @@ body {
   color: teal;
 }
 
+ul.listadoGeneros {
+  text-transform:uppercase;
+}
 .Botonsesion:hover{
   background-color: teal;
   border-color: #ffc168;
@@ -150,6 +153,6 @@ div.GENEROS li a {
   text-decoration: none;
 }
 
-div.modal-footer button.register {
-  margin-right:48%;
+div.modal-footer a button.register {
+  margin-right:220px;
 }
