@@ -1,6 +1,22 @@
-a.navbar-brand img{
-  width: 50px;
+*{box-sizing: border-box;
+margin:0;
+padding:0}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito" , sans-serif;
+  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
+  background-attachment: fixed;
 }
+
+footer img {
+  position:relative;
+  bottom:20px;
+}
+
+
+
 
 header {
   position: fixed;
@@ -19,7 +35,6 @@ header {
   border-color: #ffc168;
   color: white;
 }
-
 .miBoton {
   background-color: #ffc168;
   border-color:teal;
@@ -34,34 +49,79 @@ a.navbar-brand img{
   width: 50px;
 }
 
-body {
-  font-family: "Nunito" , sans-serif;
-  background-image: url("https://media.moddb.com/images/groups/1/2/1488/The_Lonely_Mountain-The_Desolation_of_Smaug_Wallpaper.jpg");
-  background-attachment: fixed;
-}
-div.form-group.col-md-6 label {
-  width:60%;
-}
-div.container label{
-  font-size:20px;
-color:white;
+div.carousel-item{
+background-color: rgba(255,255,255,0.5);
 
 }
 
-form {
-  width:60%;
-  margin:0 auto;
+div.carousel-item img.imagen{
+  margin-left: 30%;
+  width: 40%;
+  height: 600px;
+
 }
 
-div.genero {
-  color:white;
+.populares h1 {
+  background-color: black;
+  color: white;
+  padding-left:0px;
+  font-size:45px;
+  text-align: center;
+  font-family: fantasy;
+
+
+}
+
+.puntaje h1 {
+  background-color: black;
+  color: white;
+  padding-left:0px;
+  font-size:45px;
+  text-align: center;
+  font-family: fantasy;
+margin-top: -37px;
+}
+
+
+.proximas h1 {
+  background-color: black;
+  color: white;
+  padding-left:0px;
+  font-size:45px;
+  text-align: center;
+  font-family: fantasy;
+margin-top: -37px;
+
+}
+
+.Cartext {
+  background-color: #ffc168;
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: whitesmoke;
+
+}
+footer img {
+  width: 50px;
+  margin-left: 48.5%;
 <<<<<<< HEAD
+  margin-bottom: 20px;
 =======
-
 >>>>>>> master
-  font-size:20px;
+}
+footer p {
+  text-align: center;
+  width: 35%;
+ margin-left: 33%;
+
 }
 
 div.modal-footer button.register {
   margin-right:48%;
+}
+form {
+  color: whitesmoke;
 }
