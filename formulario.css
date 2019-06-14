@@ -7,6 +7,32 @@ header {
   width: 100%;
   z-index: 15;
 }
+.Botonsesion {
+  margin-left: 5px;
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+
+.Botonsesion:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+
+.miBoton {
+  background-color: #ffc168;
+  border-color:teal;
+  color: teal;
+}
+.miBoton:hover{
+  background-color: teal;
+  border-color: #ffc168;
+  color: white;
+}
+a.navbar-brand img{
+  width: 50px;
+}
 
 body {
   font-family: "Nunito" , sans-serif;
@@ -22,6 +48,6 @@ color:white;
 
 div.genero {
   color:white;
-  
+
   font-size:20px;
 }
