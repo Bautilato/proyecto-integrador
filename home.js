@@ -32,13 +32,15 @@ fetch(url2)
   })
   .then(function(data) {
     console.log(data.results);
+    var idDePelicula;
     for (var i = 0; i < 5; i++) {
       console.log(data.results[i]);
+      idDePelicula = data.results[i].id
       var titulo = data.results[i].title
       var descripcion = data.results[i].overview
        var imagen = 'https://image.tmdb.org/t/p/original'
       var poster =imagen +  data.results[i].poster_path
-      document.querySelector("#carousel2").innerHTML += "<div id='movie" + (i+5) + "' class='carousel-item '><img class='imagen' src='" + poster + "' alt='First slide'><div class='carousel-caption d-none d-md-block Cartext'><h5>" + titulo + "</h5></div></div>"
+      document.querySelector("#carousel2").innerHTML += "<div id='movie" + (i+5) + "' class='carousel-item'><a href='pelicula.html?idDePelicula="+ idDePelicula+"'><img class='imagen' src='" + poster + "' alt='First slide'><div class='carousel-caption d-none d-md-block Cartext'><h5>" + titulo + "</h5></a></div></div>"
 
 
 
