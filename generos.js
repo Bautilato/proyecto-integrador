@@ -24,7 +24,14 @@ window.addEventListener("load",function functionName() {
       console.log("The error was: " + error);
     })
 
+    document.querySelector("form").addEventListener("submit",function(event){
+      event.preventDefault()
+      var names = document.querySelector("input[name='name']").value
+      console.log(names);
+      sessionStorage.setItem("nombre",names)
+      sessionStorage.getItem("nombre")
 
+    })
 
 
 })
