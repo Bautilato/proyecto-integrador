@@ -19,7 +19,10 @@ fetch(url)
        var imagen = 'https://image.tmdb.org/t/p/original'
       var poster =imagen +  data.results[i].poster_path
       console.log(poster);
-      document.querySelector("#carousel1").innerHTML += '<div id="movie'+i+'"  class="carousel-item"><a href="pelicula.html?idDePelicula='+ idDePelicula+'"<img class="imagen" src=' + poster + ' alt="First slide"><div class="carousel-caption d-none d-md-block Cartext"><h5>' + titulo + '</h5></a></div></div>'
+      document.querySelector("#carousel1").innerHTML += "<div id='movie" + i + "' class='carousel-item'><a href='pelicula.html?idDePelicula="+ idDePelicula+"'><img class='imagen' src='" + poster + "' alt='First slide'><div class='carousel-caption d-none d-md-block Cartext'><h5 class='nombre'>" + titulo + "</h5></a></div></div>"
+
+
+
     }
 document.querySelector("#movie1").classList.add("active")
   })
@@ -42,13 +45,15 @@ fetch(url2)
       var descripcion = data.results[i].overview
        var imagen = 'https://image.tmdb.org/t/p/original'
       var poster =imagen +  data.results[i].poster_path
-      document.querySelector("#carousel2").innerHTML += "<div id='movie" + (i+5) + "' class='carousel-item'><a href='pelicula.html?idDePelicula="+ idDePelicula+"'><img class='imagen' src='" + poster + "' alt='First slide'><div class='carousel-caption d-none d-md-block Cartext'><h5>" + titulo + "</h5></a></div></div>"
+      document.querySelector("#carousel2").innerHTML += "<div id='movie" + (i+5) + "' class='carousel-item'><a href='pelicula.html?idDePelicula="+ idDePelicula+"'><img class='imagen' src='" + poster + "' alt='First slide'><div class='carousel-caption d-none d-md-block Cartext'><h5 class='nombre'>" + titulo + "</h5></a></div></div>";
+
 
 
 
 
     }
     document.querySelector("#movie5").classList.add("active")
+
   })
   .catch(function(error){
     console.log("The error was: " + error);
@@ -71,7 +76,7 @@ fetch(url3)
       var descripcion = data.results[i].overview
        var imagen = 'https://image.tmdb.org/t/p/original'
       var poster =imagen +  data.results[i].poster_path
-      document.querySelector("#carousel3").innerHTML += "<div id='movie" + (i+10) + "' class='carousel-item '><a href='pelicula.html?idDePelicula="+ idDePelicula+"'><img class='imagen' src='" + poster + "' alt='First slide'><div class='carousel-caption d-none d-md-block Cartext'><h5>" + titulo + "</h5></div></div>"
+      document.querySelector("#carousel3").innerHTML += "<div id='movie" + (i+10) + "' class='carousel-item '><a href='pelicula.html?idDePelicula="+ idDePelicula+"'><img class='imagen' src='" + poster + "' alt='First slide'><div class='carousel-caption d-none d-md-block Cartext'><h5 class='nombre'>" + titulo + "</h5></div></div>"
 
 
 

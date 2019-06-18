@@ -96,6 +96,7 @@ margin-top: -37px;
   background-color: #ffc168;
   width: 50%;
   margin: 0 auto;
+
 }
 
 footer {
@@ -117,3 +118,12 @@ footer p {
 
 div.modal-footer a button.register {
   margin-right:220px;
+}
+
+  h5.nombre{
+    color: white;
+    }
+
+    h5.nombre:hover{
+      text-decoration: underline;
+    }
