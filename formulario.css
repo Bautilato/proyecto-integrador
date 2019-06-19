@@ -15,6 +15,11 @@ footer img {
   bottom:20px;
 }
 
+div.modal-footer  button.register {
+  position:absolute;
+  left:20px;
+}
+
 form.inicioSesion {
   color:black;
 }

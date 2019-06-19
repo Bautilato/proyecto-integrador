@@ -22,22 +22,29 @@
         </button>
       </div>
       <div class="modal-body">
-       <form class="inicioSesion" action="index.html" method="post">
-         Nombre: <input type="text" name="" value="" placeholder="Ingrese su nombre">
+        <form class="inicioSesion"  method="get">
+          Nombre: <input type="text" name="name" value="" placeholder="Ingrese su nombre" required>
+          <br>
+          <br>
+          Password: <input type="Password" name="contra" value="">
+          <br>
+          <br>
+         Email: <input type="email" name="email" value="" placeholder="Ingrese su email" required>
          <br>
-        Email: <input type="email" name="" value="" placeholder="Ingrese su email">
-        <br>
-        Genero: Masculino <input type="radio" name="Genero" value="M">
-                Femenino <input type="radio" name="Genero"  value="F">
-                Otro  <input type="radio" name="Genero"  value="O">
+         <br>
+         Genero: Masculino <input type="radio" name="Genero" value="M">
+                 Femenino <input type="radio" name="Genero"  value="F">
+                 Otro  <input type="radio" name="Genero"  value="O">
+         <br>
+         <br>
 
-       </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="register" name="button">Registrate</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">cancelar</button>
-        <button type="button" class="btn btn-primary">iniciar</button>
+         <div class="modal-footer">
+           <a href="formulario.html">  <button type="button" class="register" name="button">Registrate</button></a>
+           <button type="submit" >iniciar</button>
+           <button type="button" class="btn btn-secondary" data-dismiss="modal">cancelar</button>
 
+         </div>
+        </form>
       </div>
     </div>
   </div>
@@ -110,7 +117,9 @@
 
 
  </div>
+    <script src="formulario.js">
 
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

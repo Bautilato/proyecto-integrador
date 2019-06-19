@@ -31,6 +31,22 @@ window.addEventListener("load",function functionName() {
       sessionStorage.setItem("nombre",names)
       sessionStorage.getItem("nombre")
 
+     var emails = document.querySelector("input[name='email']").value
+     console.log(emails);
+     sessionStorage.setItem("email",emails)
+     sessionStorage.getItem("email")
+
+     var password = document.querySelector("input[name='contra']").value
+     console.log(password);
+     sessionStorage.setItem("contraseña",password)
+     sessionStorage.getItem("contraseña")
+
+     var generos = document.querySelector("input[name='Genero']").value
+     console.log(generos);
+     sessionStorage.setItem("gener", generos)
+     sessionStorage.getItem("gener")
+
+
     })
 
 
