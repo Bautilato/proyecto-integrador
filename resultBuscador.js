@@ -105,6 +105,9 @@ for (var i = 0; i < data.results.length; i++) {
 
 
 
+        if (textoBuscado === false) {
+       document.querySelector("titulofav").innerHTML = "<h3>NO HAY RESULTADOS</h3>"
+        }
 
 
 
@@ -114,5 +117,6 @@ for (var i = 0; i < data.results.length; i++) {
   .catch(function(error){
     console.log("The error was: " + error);
   })
+
 
 })

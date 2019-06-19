@@ -78,8 +78,8 @@ console.log(id);
 document.querySelector(".titulopeli h1").innerHTML = titulo
 document.querySelector(".portada").innerHTML = '<img src="'+portada+'">'
 document.querySelector(".infogral .nomGen").innerHTML = '<h2>' + h2 + '</h2>'
-document.querySelector(".infogral .idioma").innerHTML = '<h2>'+idioma+'</h2>'
-document.querySelector(".infogral .fecha").innerHTML = '<h2>'+fecha+'</h2>'
+document.querySelector(".infogral .idioma").innerHTML = '<h2>Idioma:'+idioma+'</h2>'
+document.querySelector(".infogral .fecha").innerHTML = '<h2>Fecha de estreno:'+fecha+'</h2>'
 document.querySelector(".infogral .sinopsis").innerHTML = '<h3>'+sinopsis+'</h3>'
 
 

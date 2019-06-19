@@ -93,7 +93,7 @@ div.infogral h3 {
   padding-right:13px;
 }
 div.infogral h2 {
-  padding-left:13px;
+  padding-left:10px;
   color:white;
   padding-top:10px;
 }
@@ -105,5 +105,5 @@ div.infogral h2 {
     background-color:black;
     position:relative;
     right:30px;
-    height:440px;;
+    height:50%;
   }
