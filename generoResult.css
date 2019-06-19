@@ -134,3 +134,13 @@ div.modal-footer a button.register {
 main{
   margin-top: 100px;
 }
+
+/* esto es de resultBuscador.html */
+form.form-control  {
+border-radius: 10;
+}
+
+h3.rehacer{
+  color: white;
+  background-color: black;
+}
