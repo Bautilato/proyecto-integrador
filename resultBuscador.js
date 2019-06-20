@@ -105,13 +105,16 @@ for (var i = 0; i < data.results.length; i++) {
 
 
 
-        if (textoBuscado === false) {
-       document.querySelector("titulofav").innerHTML = "<h3>NO HAY RESULTADOS</h3>"
-        }
-
-
 
 }
+
+if (arrayBuscador.length === 0 ) {
+document.querySelector(".titulofav").innerHTML = "<h3>NO HAY RESULTADOS</h3>"
+document.querySelector(".titulofav").style.color = "white"
+}
+
+
+
 
   })
   .catch(function(error){
