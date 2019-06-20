@@ -20,9 +20,14 @@ window.addEventListener("load",function functionName(){
 
    var generos = document.querySelector("input[name='Genero']").value
    console.log(generos);
-   sessionStorage.setItem("gener", generos)
-   sessionStorage.getItem("gener")
+   sessionStorage.setItem("genero", generos)
+   sessionStorage.getItem("genero")
 
 })
+if (sessionStorage.getItem("nombre")!= null) {
+  document.querySelector(".Botonsesion").style.display = "none"
+  document.querySelector(".hola").innerHTML = "HOLA " + sessionStorage.getItem("nombre") + "!"
+  document.querySelector(".favs").innerHTML = "<a href='favoritos.html'>Favoritos</a>"
+}
 
 })

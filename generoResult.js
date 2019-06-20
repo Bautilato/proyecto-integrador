@@ -20,10 +20,11 @@ window.addEventListener("load",function functionName() {
 
    var generos = document.querySelector("input[name='Genero']").value
    console.log(generos);
-   sessionStorage.setItem("gener", generos)
-   sessionStorage.getItem("gener")
+   sessionStorage.setItem("genero", generos)
+   sessionStorage.getItem("genero")
 
   })
+
 
 
 
@@ -80,20 +81,20 @@ for (var i = 0; i < arrayDePeliculas.length; i++) {
       li +=    "</div>"
       li +=  "</a>"
       li += "<div class='genero1'>"
-      li += " <img src='imagenes/estrella.jpg' alt=''>"
+      li += " <img  class='estrella' src='imagenes/estrella.jpg' alt=''>"
       li +=  "</div>"
       li += "</li>"
 
       ul.innerHTML += li
 }
-
-
-
-
-
-
-
-
+if (sessionStorage.getItem("nombre")!= null) {
+  document.querySelector(".Botonsesion").style.display = "none"
+  document.querySelector(".hola").innerHTML = "HOLA " + sessionStorage.getItem("nombre") + "!"
+  document.querySelector(".favs").innerHTML = "<a href='favoritos.html'>Favoritos</a>"
+}
+else {
+  document.querySelector(".estrella").style.display = "none"
+}
 
 
 
