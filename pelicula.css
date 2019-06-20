@@ -107,3 +107,50 @@ div.infogral h2 {
     right:30px;
     height:50%;
   }
+
+ div.infogral iframe {
+   margin-left: 15%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+ }
+
+ footer {
+   background-color: whitesmoke;
+
+ }
+ footer img {
+   width: 50px;
+   margin-left: 48.5%;
+   margin-bottom: 20px;
+
+ }
+ footer p {
+   text-align: center;
+   width: 35%;
+  margin-left: 33%;
+
+ }
+
+ div.estrella {
+
+   float: left;
+   border-radius:30px;
+   border:10px black solid;
+   background-color:black;
+
+   margin-left:5%;
+   margin-bottom:20px;
+
+ }
+
+ div.estrella img{
+   width:60px;
+   height:55px;
+   border-radius:11px;
+   margin-left: 3%;
+
+ }
+
+ div.estrella img:hover {
+   transform:scale(1.1);
+ }

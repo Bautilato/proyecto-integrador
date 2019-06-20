@@ -123,6 +123,23 @@ document.querySelector(".infogral .sinopsis").innerHTML = '<h3>'+sinopsis+'</h3>
 
 
 
+    var url2 = "https://api.themoviedb.org/3/movie/" + id + "/videos?api_key=e8c1145f3cf3e5ccaa8924b23c1db7fd&language=en-US"
+    fetch(url2)
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+        console.log(data);
+        var arrayTrailers = data.results;
+        var primerTrailer = data.results[0];
+        var codigoTrailer = data.results[0].key;
+
+        document.querySelector("iframe").src += codigoTrailer
+      })
+        .catch(function(error){
+          console.log("The error was: " + error);
+        })
+
 
 
 
