@@ -157,10 +157,22 @@ div.infogral h2 {
 
  div.recomendaciones {
    background-color: teal;
-  
+
 
  }
  div.recomendaciones h2 {
 color: white;
 text-decoration: underline;
   }
+
+div.recomendaciones button {
+  color: #ffc168;
+  border-color: #ffc168;
+  background-color: teal;
+}
+
+div.recomendaciones button:hover {
+  background-color: #ffc168;
+  border-color: white;
+  color: white;
+}
