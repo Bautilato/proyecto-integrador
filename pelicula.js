@@ -141,7 +141,35 @@ document.querySelector(".infogral .sinopsis").innerHTML = '<h3>'+sinopsis+'</h3>
         })
 
 
+var url3 = "https://api.themoviedb.org/3/movie/" + id +"/recommendations?api_key=e8c1145f3cf3e5ccaa8924b23c1db7fd&language=en-US&page=1"
 
+fetch(url3)
+.then(function(response) {
+  return response.json();
+})
+.then(function(data) {
+  console.log(data);
+  var arrayDeRecomendaciones = data.results;
+  console.log(data.results);
+  var tituloDePeli;
+  var idDePeli;
+for (var i = 0; i < 5; i++) {
+  tituloDePeli = data.results[i].title
+  idDePeli = data.results[i].id
+  console.log(tituloDePeli);
+  console.log(idDePeli);
+
+  document.querySelector(".dropdown-menu").innerHTML += "<a class='dropdown-item' href='pelicula.html?idDePelicula=" + idDePeli + "'>" + tituloDePeli + "</a>"
+
+
+
+}
+
+
+})
+  .catch(function(error){
+    console.log("The error was: " + error);
+  })
 
 
 
