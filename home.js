@@ -23,7 +23,31 @@ window.addEventListener("load",function functionName() {
    sessionStorage.setItem("genero", generos)
    sessionStorage.getItem("genero")
 
+   location.reload();
+
   })
+
+//   var formulario = document.querySelector("form")
+//   var nombre = formulario.querySelector("input[name='email']")
+//   var email = formulario.querySelector("input[name='email']")
+//   var password = formulario.querySelector("input[name='contra']")
+//   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+// console.log(formulario);
+//   formulario.onSubmit = function (event) {
+//
+// if (nombre.value == "" && email.value.match(mailformat)== null ){
+// event.preventDefault()
+// alert("Complete todos los campos")}
+// else if (nombre.value == ""){
+//   event.preventDefault()
+//   alert("Complete su nombre")
+// }
+// else if (email.value.match(mailformat)== null){
+// event.preventDefault()
+// alert("Escriba un email correctamente")
+// }
+//
+// }
 
 
 

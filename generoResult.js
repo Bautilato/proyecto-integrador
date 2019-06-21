@@ -23,6 +23,7 @@ window.addEventListener("load",function functionName() {
    sessionStorage.setItem("genero", generos)
    sessionStorage.getItem("genero")
 
+      location.reload();
   })
 
 
@@ -81,7 +82,7 @@ for (var i = 0; i < arrayDePeliculas.length; i++) {
       li +=    "</div>"
       li +=  "</a>"
       li += "<div class='genero1'>"
-      li += " <img  class='estrella' src='imagenes/estrella.jpg' alt=''>"
+      li += " <button onclick='agregarFavoritos(" + idDePelicula + ")' class='estrellita'> &#9733; </button>"
       li +=  "</div>"
       li += "</li>"
 
@@ -90,10 +91,66 @@ for (var i = 0; i < arrayDePeliculas.length; i++) {
 if (sessionStorage.getItem("nombre")!= null) {
   document.querySelector(".Botonsesion").style.display = "none"
   document.querySelector(".hola").innerHTML = "HOLA " + sessionStorage.getItem("nombre") + "!"
-  document.querySelector(".favs").innerHTML = "<a href='favoritos.html'>Favoritos</a>"
+  document.querySelector(".favs").innerHTML = "<a href='favoritos.html'>Favoritos</a>";
+
+// var boton = document.querySelectorAll("button.estrellita")
+// boton.onclick = agregarFavoritos()
+var arrayDePelisFavoritas = []
+
+
+function agregarFavoritos(idDePelicula) {
+ alert("me clickearon!!!")
+
+ if (arrayDePelisFavoritas.indexOf(idDePelicula)===-1) {
+   // EN ESTE CASO NO ES FAVORITA
+   // pusheo el id dentro del array
+   arrayDePelisFavoritas.push(idDePelicula)
+   // guardo en session el array, como es un objeto debo transformarlo a STRING
+   window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+
+ }
+ else {
+   // ESTA PELI YA ES FAVORITA
+   console.log(arrayDePelisFavoritas.indexOf(idDePelicula));
+   // la saco del array
+   arrayDePelisFavoritas.splice(arrayDePelisFavoritas.indexOf(idDePelicula),1)
+   console.log(arrayDePelisFavoritas);
+   // reemplazo el array que tenia la peli como favorita, por el array que ya no la tiene
+   window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+ }
+ console.log(idDePelicula);
+  console.log(JSON.parse(window.sessionStorage.getItem("favorita")));
+
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 else {
-  document.querySelector(".estrella").style.display = "none"
+  var arrayDeEstrellas = document.querySelectorAll("div.genero1")
+  console.log(arrayDeEstrellas)
+for (var i = 0; i < arrayDeEstrellas.length; i++) {
+  arrayDeEstrellas[i].style.display = "none"
+}
+
+  var arrayDePelis = document.querySelectorAll(".generoprimero")
+  console.log(arrayDePelis);
+  for (var i = 0; i < arrayDePelis.length; i++) {
+    arrayDePelis[i].style.marginTop= "5%"
+  }
+
 }
 
 
@@ -104,11 +161,6 @@ else {
       console.log("The error was: " + error);
     })
 
-    window.addEventListener("load",function functionName(){
-
-
-
-  })
 
 
 

@@ -46,7 +46,7 @@ window.addEventListener("load",function functionName() {
      sessionStorage.setItem("genero", generos)
      sessionStorage.getItem("genero")
 
-
+         location.reload();
     })
 
     if (sessionStorage.getItem("nombre")!= null) {
