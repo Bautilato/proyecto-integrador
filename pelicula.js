@@ -186,29 +186,30 @@ for (var i = 0; i < 5; i++) {
 })
 
 var arrayDePelisFavoritas = []
+// No me salio poner favoritos en la pagina detalle :(
+// document.querySelector("buttton.estrellita").innerHTML = "<button onclick='agregarFavoritos(" + id + ")' class='estrellita'> &#9733; </button>"
 
-
-function agregarFavoritos(idDePeli) {
+function agregarFavoritos(id) {
  alert("me clickearon!!!")
-console.log(idDePeli);
- if (arrayDePelisFavoritas.indexOf(idDePeli)===-1) {
+console.log(id);
+ if (arrayDePelisFavoritas.indexOf(id)===-1) {
    // EN ESTE CASO NO ES FAVORITA
    // pusheo el id dentro del array
-   arrayDePelisFavoritas.push(idDePeli)
+   arrayDePelisFavoritas.push(id)
    // guardo en session el array, como es un objeto debo transformarlo a STRING
    window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
 
  }
  else {
    // ESTA PELI YA ES FAVORITA
-   console.log(arrayDePelisFavoritas.indexOf(idDePeli));
+   console.log(arrayDePelisFavoritas.indexOf(id));
    // la saco del array
-   arrayDePelisFavoritas.splice(arrayDePelisFavoritas.indexOf(idDePeli),1)
+   arrayDePelisFavoritas.splice(arrayDePelisFavoritas.indexOf(id),1)
    console.log(arrayDePelisFavoritas);
    // reemplazo el array que tenia la peli como favorita, por el array que ya no la tiene
    window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
  }
- console.log(idDePeli);
+ console.log(id);
   console.log(JSON.parse(window.sessionStorage.getItem("favorita")));
 
 }

@@ -35,6 +35,22 @@ if (sessionStorage.getItem("nombre")!= null) {
 
 arrayDePelisFavoritas = JSON.parse(window.sessionStorage.getItem("favorita"));
 
+// No me salio :(
+// if (arrayDePelisFavoritas.length==0) {
+//   var ul = document.querySelectorAll("main ul")
+//   var li;
+//   li ="<li class='generoprimero'>"
+//   li +=     "<div class='nombredepelicula'>"
+//   li +=       "<h2>No tenes peliculas favoritas</h2>"
+//   li +=      "</div>"
+//   li += "</li>"
+//
+//      ul.innerHTML += li
+//
+//
+//
+// }
+
 // checkeo que el array tenga por lo menos una peli favorita (un item)
 if (arrayDePelisFavoritas.length>0) {
   // como arrayDePelisFavoritas es un array, necesito recorrerlo
@@ -78,6 +94,8 @@ if (arrayDePelisFavoritas.length>0) {
   }
 
 }
+
+
 
 
 
