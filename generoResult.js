@@ -95,44 +95,34 @@ if (sessionStorage.getItem("nombre")!= null) {
 
 // var boton = document.querySelectorAll("button.estrellita")
 // boton.onclick = agregarFavoritos()
-var arrayDePelisFavoritas = []
-
-
-function agregarFavoritos(idDePelicula) {
- alert("me clickearon!!!")
-
- if (arrayDePelisFavoritas.indexOf(idDePelicula)===-1) {
-   // EN ESTE CASO NO ES FAVORITA
-   // pusheo el id dentro del array
-   arrayDePelisFavoritas.push(idDePelicula)
-   // guardo en session el array, como es un objeto debo transformarlo a STRING
-   window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
-
- }
- else {
-   // ESTA PELI YA ES FAVORITA
-   console.log(arrayDePelisFavoritas.indexOf(idDePelicula));
-   // la saco del array
-   arrayDePelisFavoritas.splice(arrayDePelisFavoritas.indexOf(idDePelicula),1)
-   console.log(arrayDePelisFavoritas);
-   // reemplazo el array que tenia la peli como favorita, por el array que ya no la tiene
-   window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
- }
- console.log(idDePelicula);
-  console.log(JSON.parse(window.sessionStorage.getItem("favorita")));
-
+// var arrayDePelisFavoritas = []
+//
+//
+// function agregarFavoritos(idDePelicula) {
+//  alert("me clickearon!!!")
+//
+//  if (arrayDePelisFavoritas.indexOf(idDePelicula)===-1) {
+//    // EN ESTE CASO NO ES FAVORITA
+//    // pusheo el id dentro del array
+//    arrayDePelisFavoritas.push(idDePelicula)
+//    // guardo en session el array, como es un objeto debo transformarlo a STRING
+//    window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+//
+//  }
+//  else {
+//    // ESTA PELI YA ES FAVORITA
+//    console.log(arrayDePelisFavoritas.indexOf(idDePelicula));
+//    // la saco del array
+//    arrayDePelisFavoritas.splice(arrayDePelisFavoritas.indexOf(idDePelicula),1)
+//    console.log(arrayDePelisFavoritas);
+//    // reemplazo el array que tenia la peli como favorita, por el array que ya no la tiene
+//    window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+//  }
+//  console.log(idDePelicula);
+//   console.log(JSON.parse(window.sessionStorage.getItem("favorita")));
+//
+// }
 }
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -164,9 +154,32 @@ for (var i = 0; i < arrayDeEstrellas.length; i++) {
 
 
 
-
-
-
-
-
 })
+
+var arrayDePelisFavoritas = []
+
+
+function agregarFavoritos(idDePelicula) {
+ alert("me clickearon!!!")
+
+ if (arrayDePelisFavoritas.indexOf(idDePelicula)===-1) {
+   // EN ESTE CASO NO ES FAVORITA
+   // pusheo el id dentro del array
+   arrayDePelisFavoritas.push(idDePelicula)
+   // guardo en session el array, como es un objeto debo transformarlo a STRING
+   window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+
+ }
+ else {
+   // ESTA PELI YA ES FAVORITA
+   console.log(arrayDePelisFavoritas.indexOf(idDePelicula));
+   // la saco del array
+   arrayDePelisFavoritas.splice(arrayDePelisFavoritas.indexOf(idDePelicula),1)
+   console.log(arrayDePelisFavoritas);
+   // reemplazo el array que tenia la peli como favorita, por el array que ya no la tiene
+   window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+ }
+ console.log(idDePelicula);
+  console.log(JSON.parse(window.sessionStorage.getItem("favorita")));
+
+}
