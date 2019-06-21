@@ -14,7 +14,9 @@ h1.titulofav {
   margin-top:30px;
   background-color:black;
 }
-
+ div.nombredepelicula h2 {
+   margin-top:60px;
+ }
 h1.titulofav p {
   text-align: center;
   color:white;
@@ -188,10 +190,18 @@ div.favorito img {
   width:82%;
   height:50vh;
 }
-
-
+div.genero img {
+  width:82%;
+  height:50vh;
+}
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
 div.nombredepelicula h2 {
   font-size:70px;
+  margin-top:10vh;
 }
 div.nombredepelicula {
   width:82%;
@@ -199,18 +209,16 @@ div.nombredepelicula {
 h1.titulofav p {
   font-size:100px;
   margin-left:28%;
-  margin-top:8vh;
-
+  margin-top:10vh;
+ }
 h3.rehacer{
   color: white;
   background-color: black;
 }
-
-@media only screen  and (max-device-width : 480px) {
   body {
     background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
     background-size:120% 100%;
-
+ }
 div.favorito1 {
   width:12%;
   height:5vh;
@@ -223,6 +231,8 @@ div.favorito1 img {
   top:1vh;
   left:1.5vw;
 }
+
+
 div.collapse.navbar-collapse {
   background-color:white;
   width:100%;
@@ -261,6 +271,10 @@ header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     width:1200px;
 
   }
+  body {
+    background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
+    background-size:120% 100%;
+ }
   h3.rehacer {
     margin-top:200px;
     width:50%;
@@ -298,6 +312,7 @@ header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   }
   div.nombredepelicula h2 {
     font-size:70px;
+    margin-top:10vh;
   }
   div.nombredepelicula  {
     width:80%;

@@ -173,8 +173,8 @@ div.e {
   float:left;
    margin-left:5%;
    margin-bottom:20px;
-   width:48%;
-   height:100px;
+   width:44%;
+   height:13vh;
 
  }
  div.estrella img{
@@ -365,6 +365,12 @@ h3 {
       background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
       background-size:120% 100%;
 
+    }
+    div.estrella {
+      height:7vh;
+    }
+    div.recomendaciones {
+      width:45%;
     }
     footer {
       width:1200px;
