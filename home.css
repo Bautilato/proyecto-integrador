@@ -220,6 +220,10 @@ div.modal-footer a button.register {
         top:3vh;
         margin-left:14vw;
       }
+      div.carousel-item.active {
+        height:40vh;
+
+      }
       }
 
 

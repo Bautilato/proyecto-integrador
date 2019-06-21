@@ -359,6 +359,7 @@ div.GENEROS ul div li {
     margin-top:8vh;
   }
   div.ab {
+    margin-top:40px;
     width:70vw;
     height:10vh;
     background-color:black;
@@ -366,10 +367,14 @@ div.GENEROS ul div li {
     border-radius:50px;
 
   }
+  div.ab li {
+  width:90%;
+  }
   div.ab li a {
     font-size:70px;
     position:relative;
-    left:-60px;
+    left:-30px;
     top:-10px;
+
   }
  }
