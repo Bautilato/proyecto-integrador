@@ -226,7 +226,7 @@ div.recomendaciones button:hover {
   color: white;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+@media only screen and (max-device-width : 480px) {
     body {
       background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
       background-size:120% 100%;
@@ -242,11 +242,6 @@ div.recomendaciones button:hover {
       margin-left:46%;
     }
 
-    div.collapse.navbar-collapse {
-      background-color:white;
-      width:100%;
-      font-size:28px
-    }
 
     button.navbar-toggler {
       width:10%;
@@ -268,12 +263,15 @@ div.recomendaciones button:hover {
       margin-bottom:6px;
       height:50px;
     }
+    div.trailer {
+      margin-top:20px;
+    }
     header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
       height:180px;
 
     }
 h3 {
-  font-size:50px;
+  font-size:40px;
 }
  h2 {
   font-size:50px;
@@ -282,12 +280,12 @@ h3 {
       position:relative;
       bottom:-500px;
       left:50px;
-      height:1200px;
+      height:900px;
       width:90%;
       top:10px;
     }
     div.infopeli {
-      height:3250px;;
+      height:3000px;;
     }
     div.recomendaciones {
       margin-bottom:10px;
@@ -300,12 +298,25 @@ h3 {
       margin-top:90px;
     }
    div.estrella {
-     position:absolute;
-     top:1900px;
+     position:relative;
+     top:725px;
+     border:0px black solid;
+     width:52%;
+   height:120px;
+
+   }
+   div.estrella h3{
+     padding-top:25px;
+   }
+   div.estrella img :hover {
+     transform: scale(1.2);
    }
    div.estrella img {
      width:13%;
      height:70px;
+     position:relative;
+     top:-75px;
+     left:360px;
    }
    div.portada img {
      width:180%;
@@ -318,15 +329,21 @@ h3 {
    }
    div.recomendaciones  h2 {
      margin-left:15px;
+     padding-top:25px;
    }
    div.recomendaciones {
      height:140px;
+     width:65%;
    }
+
    div.recomendaciones button.btn.btn-outline-secondary.dropdown-toggle {
    width:20%;
    height:50px;
    font-size:30px;
-   margin-left:15px;
+   margin-left:10px;
+   padding-top:20px;
+   border:none;
+   
    }
    a.dropdown-item {
      font-size:30px;

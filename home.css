@@ -148,7 +148,7 @@ div.modal-footer a button.register {
       text-decoration: underline;
     }
 
-  @media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+  @media only screen and  (max-device-width : 480px) {
       body {
         background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
         background-size:120% 100%;

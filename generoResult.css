@@ -165,7 +165,7 @@ h3.rehacer{
   background-color: black;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+@media only screen and  (max-device-width : 480px) {
   body {
     background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
     background-size:120% 100%;
@@ -196,7 +196,7 @@ h3.rehacer{
   }
   h1.titulofav p{
     font-size:100px;
-    margin-top:170px;
+    margin-top:220px;
   }
   footer p{
     font-size:30px;

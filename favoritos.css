@@ -153,7 +153,7 @@ div.modal-footer a button.register {
   margin-right:220px;
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) {
+@media only screen  and (max-device-width : 480px) {
 div.favorito img {
   width:82%;
   height:1100px;
@@ -172,8 +172,9 @@ div.nombredepelicula {
 }
 h1.titulofav p {
   font-size:100px;
-  margin-left:32%;
-  margin-top:100px;
+  margin-left:28%;
+  margin-top:160px;
+
 }
 
 footer p{
@@ -193,10 +194,10 @@ div.favorito1 {
   margin-left:45%;
 }
 div.favorito1 img {
-  width:20px;
+  width:60%;
   position:relative;
   top:10px;
-  left:15px;
+  left:13px;
 }
 div.collapse.navbar-collapse {
   background-color:white;

@@ -196,11 +196,29 @@ h3.rehacer{
   background-color: black;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+@media only screen  and (max-device-width : 480px) {
   body {
     background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
     background-size:120% 100%;
 
+  }
+  h3.rehacer {
+    margin-top:200px;
+    width:50%;
+   height:85px;
+  }
+  form.resultado button.btn.btn-outline-success.my-2.my-sm-0.miBotonn {
+    width:15%;
+    height:60px;
+    margin-left:420px;
+  }
+  input.form-controle {
+    width:60%;
+    height:50px;
+    margin-left:20%;
+  }
+  h3.rehacer p {
+    font-size:60px;
   }
   div.genero1 {
     width:10%;
