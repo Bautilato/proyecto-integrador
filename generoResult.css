@@ -173,7 +173,7 @@ h3.rehacer{
   }
   div.genero1 {
     width:10%;
-    height:100px;
+    height:5vh;
     border-radius:90px;
     margin-left:45%;
   }
@@ -181,12 +181,12 @@ h3.rehacer{
     width:100%;
     height:85%;
     position:relative;
-    top:5px;
+    top:0.3vh;
 
   }
   div.genero img {
     width:80%;
-    height:1100px;
+    height:55vh;
   }
   div.nombredepelicula h2 {
     font-size:70px;
@@ -196,7 +196,7 @@ h3.rehacer{
   }
   h1.titulofav p{
     font-size:100px;
-    margin-top:220px;
+    margin-top:12vh;
   }
   footer p{
     font-size:30px;
@@ -216,26 +216,26 @@ h3.rehacer{
 
   button.navbar-toggler {
     width:10%;
-    height:60px;;
+    height:10vh;;
   }
   div.navbar-collapse.collapse.show a img  {
-    margin-left:20px;
+    margin-left:3vw;
     width:10%;
     height:10%;
   }
   li.nav-item{
-    margin-left:20px;
+    margin-left:2vw;
   }
   form.form-inline.my-2.my-lg-0 button{
     font-size:20px;
   }
   form input.form-control.mr-sm-2{
-    margin-left:18px;
-    margin-bottom:6px;
-    height:50px;
+    margin-left:2vw;
+    margin-bottom:2vw;
+    height:3vh;
   }
   header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    height:180px;
+    height:10vh;
 
   }
 

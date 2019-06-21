@@ -242,30 +242,6 @@ div.recomendaciones button:hover {
       margin-left:46%;
     }
 
-
-    button.navbar-toggler {
-      width:10%;
-      height:60px;;
-    }
-    div.navbar-collapse.collapse.show a img  {
-      margin-left:20px;
-      width:10%;
-      height:10%;
-    }
-    li.nav-item{
-      margin-left:20px;
-    }
-    form.form-inline.my-2.my-lg-0 button{
-      font-size:20px;
-    }
-    form input.form-control.mr-sm-2{
-      margin-left:18px;
-      margin-bottom:6px;
-      height:50px;
-    }
-    div.trailer {
-      margin-top:250px;
-    }
     div.collapse.navbar-collapse {
       background-color:white;
       width:100%;
@@ -274,26 +250,26 @@ div.recomendaciones button:hover {
 
     button.navbar-toggler {
       width:10%;
-      height:60px;;
+      height:10vh;;
     }
     div.navbar-collapse.collapse.show a img  {
-      margin-left:20px;
+      margin-left:3vw;
       width:10%;
       height:10%;
     }
     li.nav-item{
-      margin-left:20px;
+      margin-left:2vw;
     }
     form.form-inline.my-2.my-lg-0 button{
       font-size:20px;
     }
     form input.form-control.mr-sm-2{
-      margin-left:18px;
-      margin-bottom:6px;
-      height:50px;
+      margin-left:2vw;
+      margin-bottom:2vw;
+      height:3vh;
     }
     header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-      height:180px;
+      height:10vh;
 
     }
 h3 {
@@ -304,29 +280,29 @@ h3 {
 }
     div.infogral {
       position:relative;
-      bottom:-500px;
-      left:50px;
-      height:900px;
+      bottom:-50vh;
+      left:5vw;
+      height:90vh;
       width:90%;
-      top:10px;
+      top:1vh;
     }
     div.infopeli {
-      height:3000px;;
+      height:160vh;;
     }
     div.recomendaciones {
-      margin-bottom:10px;
+      margin-bottom:1vh;
     }
     div.trailer iframe{
       width:90%;
-      height:600px;
-      margin-top:40px;
-      margin-left:50px;
+      height:30vh;
+      margin-top:4vh;
+      margin-left:5vw;
     }
    div.estrella {
-    margin-top:20px;
+    margin-top:2vh;
      border:0px black solid;
      width:52%;
-   height:120px;
+   height:7vh;
 
    }
    div.estrella h3{
@@ -337,42 +313,42 @@ h3 {
    }
    div.estrella img {
      width:13%;
-     height:70px;
+     height:4vh;
      position:relative;
-     top:-75px;
-     left:360px;
+     top:-4.5vh;
+     left:36vw;
    }
    div.portada img {
      width:180%;
 
      position:relative;
-     left:100px;
+     left:11vw;
    }
    div.recomendaciones h2 {
      text-decoration:none;
    }
    div.recomendaciones  h2 {
-     margin-left:15px;
-     padding-top:25px;
+     margin-left:5vw;
+     padding-top:1vh;
    }
    div.recomendaciones {
-     height:140px;
+     height:7vh;
      width:65%;
    }
 
    div.recomendaciones button.btn.btn-outline-secondary.dropdown-toggle {
    width:20%;
-   height:50px;
+   height:2vh;
    font-size:30px;
-   margin-left:10px;
-   padding-top:20px;
+   margin-left:1vw;
+   padding-top:0.6vh;
    border:none;
 
    }
    div.titulopeli h1 {
-     margin-top:100px;
+     margin-top:5vh;
      font-size:70px;
-     margin-left:-10px;
+  
    }
    a.dropdown-item {
      font-size:30px;

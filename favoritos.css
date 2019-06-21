@@ -182,14 +182,23 @@ div.modal-footer a button.register {
   margin-right:220px;
 }
 
-main{
-  margin-top: 100px;
+@media only screen  and (max-device-width : 480px) {
+div.favorito img {
+  width:82%;
+  height:50vh;
 }
 
-/* esto es de resultBuscador.html */
-form.form-control  {
-border-radius: 10;
+
+div.nombredepelicula h2 {
+  font-size:70px;
 }
+div.nombredepelicula {
+  width:82%;
+}
+h1.titulofav p {
+  font-size:100px;
+  margin-left:28%;
+  margin-top:8vh;
 
 h3.rehacer{
   color: white;
@@ -200,6 +209,55 @@ h3.rehacer{
   body {
     background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
     background-size:120% 100%;
+
+div.favorito1 {
+  width:12%;
+  height:5vh;
+  border-radius:70px;
+  margin-left:45%;
+}
+div.favorito1 img {
+  width:60%;
+  position:relative;
+  top:1vh;
+  left:1.5vw;
+}
+div.collapse.navbar-collapse {
+  background-color:white;
+  width:100%;
+  font-size:28px
+}
+
+button.navbar-toggler {
+  width:10%;
+  height:10vh;;
+}
+div.navbar-collapse.collapse.show a img  {
+  margin-left:3vw;
+  width:10%;
+  height:10%;
+}
+li.nav-item{
+  margin-left:2vw;
+}
+form.form-inline.my-2.my-lg-0 button{
+  font-size:20px;
+}
+form input.form-control.mr-sm-2{
+  margin-left:2vw;
+  margin-bottom:2vw;
+  height:3vh;
+}
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  height:10vh;
+
+}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait){
+  div.favorito img {
+    width:1200px;
 
   }
   h3.rehacer {
