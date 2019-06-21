@@ -162,6 +162,7 @@ var arrayDePelisFavoritas = []
 function agregarFavoritos(idDePelicula) {
  alert("me clickearon!!!")
 
+
  if (arrayDePelisFavoritas.indexOf(idDePelicula)===-1) {
    // EN ESTE CASO NO ES FAVORITA
    // pusheo el id dentro del array

@@ -14,6 +14,9 @@ h1.titulofav {
   margin-top:30px;
   background-color:black;
 }
+div.genero1:click {
+  background-color:green;
+}
 
 h1.titulofav p {
   text-align: center;
@@ -305,7 +308,11 @@ h3.rehacer{
 
 
 
-
+  div.genero1 {
+    width:10%;
+    margin-left:55vw;
+    height:4vh;
+  }
 
 
 
