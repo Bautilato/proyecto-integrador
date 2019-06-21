@@ -241,7 +241,11 @@ h3.rehacer{
     height:10vh;
 
   }
-
+div.genero1 button {
+  width:5vw;
+  height:3vh;
+  margin-top:10px;
+}
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait){
   div.nombredepelicula  {
@@ -314,10 +318,16 @@ h3.rehacer{
     height:4vh;
   }
 
+h1.titulofav {
+  width:122vw;
+
+}
 
 
-
-
+h1.titulofav p {
+  margin-top:17vh;
+  font-size:90px;
+}
 
 
 
