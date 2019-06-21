@@ -15,7 +15,24 @@ footer img {
   bottom:20px;
 }
 
-
+div.modal-footer button.btn.btn-secondary {
+  font-size:20px;
+  background-color:lightblue;
+  border-radius:25px;
+  border:1px grey solid;
+  color:black;
+}
+div.modal-footer button.inicio {
+  background-color:lightgreen;
+  font-size:23px;
+  width:90px;
+}
+div.modal-footer button.inicio:hover{
+  transform: scale(1.1);
+}
+div.modal-footer button.btn.btn-secondary:hover{
+  transform: scale(1.1);
+}
 header {
   position: fixed;
   width: 100%;
@@ -63,9 +80,10 @@ div.carousel-item img.imagen{
   background-color: black;
   color: white;
   padding-left:0px;
-  font-size:45px;
+  font-size:50px;
   text-align: center;
   font-family: fantasy;
+  margin:0 auto;
 
 
 }
@@ -74,10 +92,11 @@ div.carousel-item img.imagen{
   background-color: black;
   color: white;
   padding-left:0px;
-  font-size:45px;
+  font-size:50px;
   text-align: center;
   font-family: fantasy;
 margin-top: -37px;
+margin:0 auto;
 }
 
 
@@ -85,10 +104,11 @@ margin-top: -37px;
   background-color: black;
   color: white;
   padding-left:0px;
-  font-size:45px;
+  font-size:50px;
   text-align: center;
   font-family: fantasy;
 margin-top: -37px;
+margin:0 auto;
 
 }
 

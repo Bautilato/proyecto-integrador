@@ -78,8 +78,25 @@ div.GENEROS ul div.ab:hover {
   transform: scale(1.2);
 }
 
+div.modal-footer button.btn.btn-secondary {
+  font-size:20px;
+  background-color:lightblue;
+  border-radius:25px;
+  border:1px grey solid;
+  color:black;
+}
+div.modal-footer button.inicio {
+  background-color:lightgreen;
+  font-size:23px;
+  width:90px;
+}
+div.modal-footer button.inicio:hover{
+  transform: scale(1.1);
+}
 
-
+div.modal-footer button.btn.btn-secondary:hover{
+  transform: scale(1.1);
+}
 footer {
   background-color: whitesmoke;
 
