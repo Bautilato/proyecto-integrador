@@ -190,7 +190,7 @@ var arrayDePelisFavoritas = []
 
 function agregarFavoritos(idDePeli) {
  alert("me clickearon!!!")
-
+console.log(idDePeli);
  if (arrayDePelisFavoritas.indexOf(idDePeli)===-1) {
    // EN ESTE CASO NO ES FAVORITA
    // pusheo el id dentro del array
