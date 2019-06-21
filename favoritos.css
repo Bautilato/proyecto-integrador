@@ -156,14 +156,10 @@ div.modal-footer a button.register {
 @media only screen  and (max-device-width : 480px) {
 div.favorito img {
   width:82%;
-  height:1100px;
+  height:50vh;
 }
 
-body {
-  background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
-  background-size:120% 100%;
 
-}
 div.nombredepelicula h2 {
   font-size:70px;
 }
@@ -173,7 +169,7 @@ div.nombredepelicula {
 h1.titulofav p {
   font-size:100px;
   margin-left:28%;
-  margin-top:160px;
+  margin-top:8vh;
 
 }
 
@@ -189,15 +185,15 @@ footer img{
 
 div.favorito1 {
   width:12%;
-  height:100px;
+  height:5vh;
   border-radius:70px;
   margin-left:45%;
 }
 div.favorito1 img {
   width:60%;
   position:relative;
-  top:10px;
-  left:13px;
+  top:1vh;
+  left:1.5vw;
 }
 div.collapse.navbar-collapse {
   background-color:white;
@@ -207,26 +203,26 @@ div.collapse.navbar-collapse {
 
 button.navbar-toggler {
   width:10%;
-  height:60px;;
+  height:10vh;;
 }
 div.navbar-collapse.collapse.show a img  {
-  margin-left:20px;
+  margin-left:3vw;
   width:10%;
   height:10%;
 }
 li.nav-item{
-  margin-left:20px;
+  margin-left:2vw;
 }
 form.form-inline.my-2.my-lg-0 button{
   font-size:20px;
 }
 form input.form-control.mr-sm-2{
-  margin-left:18px;
-  margin-bottom:6px;
-  height:50px;
+  margin-left:2vw;
+  margin-bottom:2vw;
+  height:3vh;
 }
 header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-  height:180px;
+  height:10vh;
 
 }
 }
