@@ -23,6 +23,8 @@ window.addEventListener("load",function functionName(){
    sessionStorage.setItem("genero", generos)
    sessionStorage.getItem("genero")
 
+      location.reload();
+
 })
 
 if (sessionStorage.getItem("nombre")!= null) {
@@ -30,6 +32,8 @@ if (sessionStorage.getItem("nombre")!= null) {
   document.querySelector(".hola").innerHTML = "HOLA " + sessionStorage.getItem("nombre") + "!"
   document.querySelector(".favs").innerHTML = "<a href='favoritos.html'>Favoritos</a>"
 }
+
+
 
 
 

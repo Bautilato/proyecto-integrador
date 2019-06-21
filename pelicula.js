@@ -23,14 +23,11 @@ window.addEventListener("load",function functionName() {
    sessionStorage.setItem("genero", generos)
    sessionStorage.getItem("genero")
 
+location.reload();
   })
 
 
-  if (sessionStorage.getItem("nombre")!= null) {
-    document.querySelector(".Botonsesion").style.display = "none"
-    document.querySelector(".hola").innerHTML = "HOLA " + sessionStorage.getItem("nombre") + "!"
-    document.querySelector(".favs").innerHTML = "<a href='favoritos.html'>Favoritos</a>"
-  }
+
 
 
 
@@ -176,6 +173,14 @@ for (var i = 0; i < 5; i++) {
     console.log("The error was: " + error);
   })
 
+  if (sessionStorage.getItem("nombre")!= null) {
+    document.querySelector(".Botonsesion").style.display = "none"
+    document.querySelector(".hola").innerHTML = "HOLA " + sessionStorage.getItem("nombre") + "!"
+    document.querySelector(".favs").innerHTML = "<a href='favoritos.html'>Favoritos</a>"
+  }
+  else {
+    document.querySelector("div.estrella").style.display = "none"
+  }
 
 
 })
