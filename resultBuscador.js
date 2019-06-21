@@ -112,7 +112,7 @@ for (var i = 0; i < data.results.length; i++) {
 if(textoBuscado.length <= 3 ){
 var timepo = setTimeout(vacio, 3000)
 function vacio() {
-  alert('tu busqueda debe contener al menos 3 caracteres para una busqueda más precisa ')
+  alert('tu busqueda debe contener al menos 3 caracteres para ser más precisa ')
   clearTimeout(tiempo);
   event.preventDefault();
 
