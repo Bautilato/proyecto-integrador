@@ -11,7 +11,24 @@ body {
 
 }
 
-
+div.modal-footer button.btn.btn-secondary {
+  font-size:20px;
+  background-color:lightblue;
+  border-radius:25px;
+  border:1px grey solid;
+  color:black;
+}
+div.modal-footer button.inicio {
+  background-color:lightgreen;
+  font-size:23px;
+  width:90px;
+}
+div.modal-footer button.inicio:hover{
+  transform: scale(1.1);
+}
+div.modal-footer button.btn.btn-secondary:hover{
+  transform: scale(1.1);
+}
 .Botonsesion {
   margin-left: 5px;
   background-color: #ffc168;
@@ -29,6 +46,9 @@ div.modal-footer a button.register {
   margin-right:220px;
 }
 
+div.infogral{
+  margin-bottom:40px;
+}
 
 header {
   position: fixed;
@@ -59,9 +79,15 @@ div.titulopeli h1{
   background-color: black;
   color: white;
   padding-left:15px;
-  font-size:45px;
+  font-size:50px;
   text-align: center;
   font-family: fantasy;
+  text-transform:uppercase;
+
+
+}
+div.infogral h2 {
+  text-decoration:none;
 
 }
 
@@ -93,7 +119,7 @@ div.infogral h3 {
   padding-right:13px;
 }
 div.infogral h2 {
-  padding-left:10px;
+  padding-left:7px;
   color:white;
   padding-top:10px;
 }
@@ -130,19 +156,27 @@ div.infogral h2 {
   margin-left: 33%;
 
  }
-
+img.image {
+  width:8%;
+  padding-top:
+}
+div.e {
+  padding-top:10px;
+  float:left;
+}
  div.estrella {
-
+  overflow:hidden;
    float: left;
-   border-radius:30px;
+   border-radius:20px;
    border:10px black solid;
-   background-color:black;
-
+   background-color:grey;
+  float:left;
    margin-left:5%;
    margin-bottom:20px;
+   width:48%;
+   height:100px;
 
  }
-
  div.estrella img{
    width:60px;
    height:55px;
@@ -157,12 +191,27 @@ div.infogral h2 {
 
  div.recomendaciones {
    background-color: teal;
-
+   height:70px;
+   overflow:hidden;
+  border-radius:30px;
+  width:35%;
+  margin-left:7px;
+  margin-bottom:-30px;
+ }
+div.recomendaciones button {
+  margin-left:20px;
+  position:relative;
+  top:25%;
+}
+ div.rec {
+   float:left;
+   padding-top:17px;
 
  }
  div.recomendaciones h2 {
-color: white;
-text-decoration: underline;
+  color: white;
+   text-decoration:none;
+  margin-left:20px;
   }
 
 div.recomendaciones button {
@@ -177,7 +226,7 @@ div.recomendaciones button:hover {
   color: white;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+@media only screen and (max-device-width : 480px) {
     body {
       background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
       background-size:120% 100%;
@@ -193,6 +242,30 @@ div.recomendaciones button:hover {
       margin-left:46%;
     }
 
+
+    button.navbar-toggler {
+      width:10%;
+      height:60px;;
+    }
+    div.navbar-collapse.collapse.show a img  {
+      margin-left:20px;
+      width:10%;
+      height:10%;
+    }
+    li.nav-item{
+      margin-left:20px;
+    }
+    form.form-inline.my-2.my-lg-0 button{
+      font-size:20px;
+    }
+    form input.form-control.mr-sm-2{
+      margin-left:18px;
+      margin-bottom:6px;
+      height:50px;
+    }
+    div.trailer {
+      margin-top:250px;
+    }
     div.collapse.navbar-collapse {
       background-color:white;
       width:100%;
@@ -224,7 +297,7 @@ div.recomendaciones button:hover {
 
     }
 h3 {
-  font-size:50px;
+  font-size:40px;
 }
  h2 {
   font-size:50px;
@@ -233,12 +306,12 @@ h3 {
       position:relative;
       bottom:-500px;
       left:50px;
-      height:1200px;
+      height:900px;
       width:90%;
       top:10px;
     }
     div.infopeli {
-      height:3250px;;
+      height:3000px;;
     }
     div.recomendaciones {
       margin-bottom:10px;
@@ -246,17 +319,28 @@ h3 {
     div.trailer iframe{
       width:90%;
       height:600px;
-      position:absolute;
-      left:-87px;
-      margin-top:90px;
+      margin-top:40px;
+      margin-left:50px;
     }
    div.estrella {
-     position:absolute;
-     top:1900px;
+    margin-top:20px;
+     border:0px black solid;
+     width:52%;
+   height:120px;
+
+   }
+   div.estrella h3{
+     padding-top:25px;
+   }
+   div.estrella img :hover {
+     transform: scale(1.2);
    }
    div.estrella img {
      width:13%;
      height:70px;
+     position:relative;
+     top:-75px;
+     left:360px;
    }
    div.portada img {
      width:180%;
@@ -269,15 +353,26 @@ h3 {
    }
    div.recomendaciones  h2 {
      margin-left:15px;
+     padding-top:25px;
    }
    div.recomendaciones {
      height:140px;
+     width:65%;
    }
+
    div.recomendaciones button.btn.btn-outline-secondary.dropdown-toggle {
    width:20%;
    height:50px;
    font-size:30px;
-   margin-left:15px;
+   margin-left:10px;
+   padding-top:20px;
+   border:none;
+
+   }
+   div.titulopeli h1 {
+     margin-top:100px;
+     font-size:70px;
+     margin-left:-10px;
    }
    a.dropdown-item {
      font-size:30px;

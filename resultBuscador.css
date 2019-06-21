@@ -22,7 +22,24 @@ h1.titulofav p {
   font-size:65px;
 }
 
-
+div.modal-footer button.btn.btn-secondary {
+  font-size:20px;
+  background-color:lightblue;
+  border-radius:25px;
+  border:1px grey solid;
+  color:black;
+}
+div.modal-footer button.inicio {
+  background-color:lightgreen;
+  font-size:23px;
+  width:90px;
+}
+div.modal-footer button.inicio:hover{
+  transform: scale(1.1);
+}
+div.modal-footer button.btn.btn-secondary:hover{
+  transform: scale(1.1);
+}
 
 div.genero1:hover {
   transform:scale(1.2);
@@ -40,6 +57,40 @@ div.genero1 {
   width:75px;
   margin-left:47%;
   margin-bottom:50px;
+}
+h3.rehacer p {
+  font-size:40px;
+}
+h3.rehacer {
+  width:30%;
+  margin:0 auto;
+  border-radius:30px;
+  height:70px;
+  padding-top:7px;
+  font-family:fantasy;
+  text-align:center;
+  margin-top:120px;
+  text-transform:uppercase;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.miBotonn:hover{
+  transform: scale(1.2);
+}
+button.btn.btn-outline-success.my-2.my-sm-0.miBotonn {
+  margin-left:46%;
+  border-radius:30px;
+  font-size:20px;
+  position:relative;
+  top:10px;
+  background-color:green;
+  color:white;
+
+}
+input.form-controle {
+  width:40%;
+  margin-left:30%;
+  margin-top:10px;
+  border-radius: 30px;
+  height:50px;
 }
 
 div.genero img {
@@ -145,11 +196,29 @@ h3.rehacer{
   background-color: black;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 812px) {
+@media only screen  and (max-device-width : 480px) {
   body {
     background-image: url("https://travelgrafia.co/wp-content/uploads/2017/07/Puerto-nari%C3%B1o-Amazonas-Colombia.jpg")  ;
     background-size:120% 100%;
 
+  }
+  h3.rehacer {
+    margin-top:200px;
+    width:50%;
+   height:85px;
+  }
+  form.resultado button.btn.btn-outline-success.my-2.my-sm-0.miBotonn {
+    width:15%;
+    height:60px;
+    margin-left:420px;
+  }
+  input.form-controle {
+    width:60%;
+    height:50px;
+    margin-left:20%;
+  }
+  h3.rehacer p {
+    font-size:60px;
   }
   div.genero1 {
     width:10%;
