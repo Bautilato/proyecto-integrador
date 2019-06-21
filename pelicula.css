@@ -264,11 +264,19 @@ div.recomendaciones button:hover {
       height:50px;
     }
     div.trailer {
-      margin-top:20px;
+      margin-top:250px;
     }
     header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
       height:180px;
 
+    }
+    div.navbar-collapse.collapse.show {
+      background-color:white;
+    }
+    div.navbar-collapse.collapse.show a img  {
+      margin-left:20px;
+      width:10%;
+      height:10%;
     }
 h3 {
   font-size:40px;
@@ -343,7 +351,7 @@ h3 {
    margin-left:10px;
    padding-top:20px;
    border:none;
-   
+
    }
    a.dropdown-item {
      font-size:30px;
