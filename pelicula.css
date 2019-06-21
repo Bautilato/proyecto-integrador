@@ -266,17 +266,35 @@ div.recomendaciones button:hover {
     div.trailer {
       margin-top:250px;
     }
-    header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-      height:180px;
-
-    }
-    div.navbar-collapse.collapse.show {
+    div.collapse.navbar-collapse {
       background-color:white;
+      width:100%;
+      font-size:28px
+    }
+
+    button.navbar-toggler {
+      width:10%;
+      height:60px;;
     }
     div.navbar-collapse.collapse.show a img  {
       margin-left:20px;
       width:10%;
       height:10%;
+    }
+    li.nav-item{
+      margin-left:20px;
+    }
+    form.form-inline.my-2.my-lg-0 button{
+      font-size:20px;
+    }
+    form input.form-control.mr-sm-2{
+      margin-left:18px;
+      margin-bottom:6px;
+      height:50px;
+    }
+    header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+      height:180px;
+
     }
 h3 {
   font-size:40px;
@@ -301,13 +319,11 @@ h3 {
     div.trailer iframe{
       width:90%;
       height:600px;
-      position:absolute;
-      left:-87px;
-      margin-top:90px;
+      margin-top:40px;
+      margin-left:50px;
     }
    div.estrella {
-     position:relative;
-     top:725px;
+    margin-top:20px;
      border:0px black solid;
      width:52%;
    height:120px;
@@ -352,6 +368,11 @@ h3 {
    padding-top:20px;
    border:none;
 
+   }
+   div.titulopeli h1 {
+     margin-top:100px;
+     font-size:70px;
+     margin-left:-10px;
    }
    a.dropdown-item {
      font-size:30px;
