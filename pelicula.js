@@ -184,3 +184,31 @@ for (var i = 0; i < 5; i++) {
 
 
 })
+
+// var arrayDePelisFavoritas = []
+//
+//
+// function agregarFavoritos(id) {
+//  alert("me clickearon!!!")
+//
+//  if (arrayDePelisFavoritas.indexOf(id)===-1) {
+//    // EN ESTE CASO NO ES FAVORITA
+//    // pusheo el id dentro del array
+//    arrayDePelisFavoritas.push(id)
+//    // guardo en session el array, como es un objeto debo transformarlo a STRING
+//    window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+//
+//  }
+//  else {
+//    // ESTA PELI YA ES FAVORITA
+//    console.log(arrayDePelisFavoritas.indexOf(id));
+//    // la saco del array
+//    arrayDePelisFavoritas.splice(arrayDePelisFavoritas.indexOf(id),1)
+//    console.log(arrayDePelisFavoritas);
+//    // reemplazo el array que tenia la peli como favorita, por el array que ya no la tiene
+//    window.sessionStorage.setItem("favorita",JSON.stringify(arrayDePelisFavoritas))
+//  }
+//  console.log(id);
+//   console.log(JSON.parse(window.sessionStorage.getItem("favorita")));
+//
+// }
