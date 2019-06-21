@@ -303,4 +303,7 @@ div.modal-footer a button.register {
        div.carousel-caption.d-none.d-md-block.Cartext {
          margin-left:-50px;
        }
+       footer {
+         width:130vw;
+       }
        }
